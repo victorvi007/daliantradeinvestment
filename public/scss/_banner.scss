@@ -1,0 +1,27 @@
+.banner {
+    // background:url(../assets/img/banner.jpg);
+    // background-size:cover;
+    // background-position: center;
+    // height:100vh;
+    
+  .container {
+    display: flex;
+    justify-content: space-between;
+
+    .logo {
+      height: 50px;
+    }
+
+    nav {
+      width: 60%;
+      display: flex;
+      justify-content: space-evenly;
+      margin: auto 0px;
+      
+      a{
+          color:$light;
+        
+      }
+    }
+  }
+}
